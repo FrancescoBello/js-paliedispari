@@ -1,12 +1,8 @@
-//var numero = parseInt(prompt("Inserisci un numero tra 1 e 5"));
-//console.log("numero scelto " + numero);
-//if (numero>5) {
-  //var numero = prompt("Inserisci un numero tra 1 e 5");
-//}
+
 var numero
 do {
-    numero = parseInt(prompt('Inserisci un numero'));
-    console.log(numero);
+    numero = parseInt(prompt('Inserisci un numero tra 1 e 5'));
+    console.log("numero scelto " + numero);
 } while (isNaN(numero) || numero <= 0 || numero > 5);
 
 
